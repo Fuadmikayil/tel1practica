@@ -4,7 +4,7 @@ import bg from "../İmages/hero-illustration.svg";
 const hiro = () => {
   return (
     <>
-      <section className="h-[75vh] bg-gradient-to-r from-sky-500 to-indigo-500 rounded-bl-[150px] flex gap-5 ">
+      <section className="h-[75vh] bg-gradient-to-r from-sky-500 to-indigo-500 rounded-bl-[150px] flex gap-20  relative -z-50  ">
         <div className="flex flex-col  w-[50%] p-32 gap-y-6">
           <h2 className="text-white text-5xl font-bold tracking-wider">
             Create physical and virtual cards for your business
@@ -22,9 +22,9 @@ const hiro = () => {
             </button>
           </div>
         </div>
-        <div className="relative ">
-          <img src={img} alt="hiroİmg" className="w-[600px] translate-y-20 absolute z-50   "/>
-          <img src={bg} alt="bg"  className="   mix-blend-lighten  translate-y-[-10%]  translate-x-[-11%]   " />
+        <div className="relative top-20  ">
+          <img src={img} alt="hiroİmg" className="w-[600px]  absolute z-10   "/>
+          <img src={bg} alt="bg"  className="   mix-blend-lighten  translate-y-[-18%]  translate-x-[-11%]  " />
         </div>
       </section>
     </>
